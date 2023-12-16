@@ -60,59 +60,7 @@ const dataSets = {
         'ESTA VIVO?!?! // Предмет',
         'M⊕R✞IS // Предмет',
         'Че пацаны, Аниме? // Предмет',
-        'AYAYA // Предмет',
-
-
-    ],
-    supeshiaru: [
-        'Чуйка на говно',
-        'Выбор Бумера',
-        'Выбор Зумера',
-        'Чат здесь закон',
-        'Я здесь закон',
-        'Never Lucky',
-        'Четырёхлистный клевер',
-    ],
-    buffs: [
-        'Стримбернар',
-        'Выключенный ОБС',
-        'Успешная вылазка',
-        'Шуточное колесо',
-        'КОКтейль бунтаря',
-        'Щit',
-        'Комбинезон химзащиты',
-        'Респиратор',
-        'Одноразовые перчатки',
-        'Банка шпината',
-        'Рука для фистинга имени Билли Херрингтона',
-        'Кукла вуду',
-        'Набор выживальщика',
-        'Наперсток удачи',
-        'Переносной телепорт',
-        'Футляр',
-        'Альпинистский трос',
-        'Хакерский компьютер',
-        'Корона короля петучей',
-        'Порошок прозрения',
-    ],
-    debuffs: [
-        'Мистер Ржавчик',
-        'Скупщик гречи',
-        'ОПЯТЬ НДИДИ',
-        'Вор',
-        'Тест на вирус',
-        'Штаны за 40 хрывень',
-        'Пустышка',
-        'Конченное событие',
-        'Комбо неудач',
-        'Три топора',
-        'Не та позиция тебе выпала',
-        'Повязка Рэмбо',
-        'Пиццианская башня',
-        'Крышка от мусорного бака',
-        'Сексуальные чулки',
-        'Проклятая жилетка Вассермана',
-        'Шиш кебаб',
+        'AYAYA // Предмет',  
     ],
     coin: [
         'Орёл',
@@ -128,14 +76,10 @@ const dataSets = {
         'Ребро!',
     ],
     streamers: [
-        'Balabama',
-        'NAMVSEYASNO',
+        'Alexbelog',
+        'Ragnar',
         'usachman',
         'Westmage',
-    ],
-    corona: [
-        'Тест положительный',
-        'Тест отрицательный',
     ]
 };
 let currentDataSet = 'inventory',
@@ -393,55 +337,6 @@ function getImageURI(index) {
         mapping = []
     ;
     switch (currentDataSet) {
-        case "buffs":
-            mapping = [
-                5,
-                9,
-                17,
-                11,
-                24,
-                51,
-                52,
-                54,
-                55,
-                56,
-                60,
-                63,
-                64,
-                65,
-                66,
-                67,
-                71,
-                72,
-                73,
-                75,
-            ];
-            result = 'images/items/0' + ('0' + (mapping[index])).slice(-2) + '.png';
-            break;
-
-        case "debuffs":
-            mapping = [
-                1,
-                7,
-                10,
-                12,
-                16,
-                18,
-                20,
-                21,
-                22,
-                31,
-                45,
-                23,
-                49,
-                57,
-                61,
-                68,
-                70,
-            ];
-            result = 'images/items/0' + ('0' + (mapping[index])).slice(-2) + '.png';
-            break;
-
         case "items":
             mapping = [
                 1,
@@ -505,24 +400,10 @@ function getImageURI(index) {
                 59,
                 60,
                 61,
-
             ];
             result = 'images/items/0' + ('0' + (mapping[index])).slice(-2) + '.png';
             break;
-
-        case "supeshiaru":
-            mapping = [
-                25,
-                27,
-                28,
-                13,
-                30,
-                45,
-                62,
-            ];
-            result = 'images/items/0' + ('0' + (mapping[index])).slice(-2) + '.png';
-            break;
-
+            
         case "coin":
             result = 'images/coins/russia-100-rubles-1993-ob.png';
             if (index === 1) {
@@ -535,10 +416,6 @@ function getImageURI(index) {
 
         case "streamers":
             result = 'images/streamers/'+ dataSets[currentDataSet][index] +'.png';
-            break;
-
-        case "corona":
-            result = 'images/items/016.png';
             break;
     }
 
