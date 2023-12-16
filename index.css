@@ -5,8 +5,8 @@
 	src: url('Oswald-Regular.ttf');
 }
 @font-face {
-	font-family: "fallout";
-	src: url('fallout.ttf');
+	font-family: "Oswald-Regular";
+	src: url('Oswald-Regular.ttf');
 }
 
 html, body {
@@ -20,7 +20,7 @@ html, body {
 	align-content: center;
 	align-items: center;
 	justify-content: center;
-	font-family: "fallout", Calibri, sans-serif;
+	font-family: "Oswald-Regular", Calibri, sans-serif;
 	color: #eee;
 	/*background-image: linear-gradient(to top, #141E30 0%, #243B55 100%);*/
 }
