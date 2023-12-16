@@ -126,10 +126,11 @@ const dataSets = {
         'Ребро!',
     ],
     streamers: [
-        'Balabama',
-        'NAMVSEYASNO',
-        'usachman',
-        'Westmage',
+        'Alexbelog',
+        'Ragnar',
+        'Akvitan',
+        'R3V3NG3LUV',
+        'Kymaxta',
     ],
     corona: [
         'Тест положительный',
