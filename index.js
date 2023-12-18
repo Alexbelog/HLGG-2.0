@@ -570,7 +570,7 @@ p5Instance.onAfterSetup = function () {
         'videos/[Re-upload] [1080p] HONK HONK.mp4',
         'videos/CHIKA VIBES   Kaguya-sama Love is War.mp4',
         'videos/best Chika meme ever   anime characters in Chika dance MV.mp4',
-        //['videos/Не Твое Дело - Я буду рядом.mp4', 0, 30],
+        'videos/chipichapa.mp4',
         'videos/Music make you lose control triangle.mp4',
         'videos/Танец под волчок из  Что Где Когда.mp4',
         'videos/dendi.mp4',
@@ -606,9 +606,9 @@ p5Instance.onAfterSetup = function () {
         // 'videos/streamers/Крутое ХПГ.webm',
         // 'videos/streamers/Лизон в ХПГ.mp4',
 
-        // 'videos/01.mp4', // Crab rave
+        'videos/01.mp4', // Crab rave
         'videos/02.mp4',
-        'videos/chipichapa.mp4', // AAAAAAAT
+        'videos/03.mp4', // AAAAAAAT
         'videos/04.mp4',
         'videos/06.mp4',
         'videos/x-men.mp4', // HPG
