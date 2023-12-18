@@ -553,16 +553,16 @@ p5Instance.onAfterSetup = function () {
             'videos/Nope..mp4',
         ]),
         () => p5Instance.random([
-            ['videos/BASSBOOSTED   Смешарики-От винта.mp4', 14, 28],
+            //['videos/BASSBOOSTED   Смешарики-От винта.mp4', 14, 28],
             // ['videos/BASSBOOSTED   Смешарики-От винта.mp4', 44, 34],
-            ['videos/BASSBOOSTED   Смешарики-От винта.mp4', 73, 29],
+            //['videos/BASSBOOSTED   Смешарики-От винта.mp4', 73, 29],
         ]),
         ['videos/JOJO\'S BIZARRE MAKEUP TUTORIAL.mp4', 6],
-        ['videos/Останьте, босмер.mp4', 1],
+        //['videos/Останьте, босмер.mp4', 1],
         ['videos/All Star but they don\'t stop coming pitch corrected.mp4', 3],
         () => p5Instance.random([
             ['videos/Pinoki - Pingana (Havana by Camila Cabello ft. Young Thug Remix).mp4', 32],
-            ['videos/Pinoki - Pingana (Havana by Camila Cabello ft. Young Thug Remix).mp4', 22],
+            //['videos/Pinoki - Pingana (Havana by Camila Cabello ft. Young Thug Remix).mp4', 22],
         ]),
         ['videos/HOOD NARUTO  pt.4 (full video) naruto vs pain.mp4', 23, 32],
         'videos/arabic.mp4',
@@ -586,7 +586,7 @@ p5Instance.onAfterSetup = function () {
         ['videos/Antonio Banderas, Los Lobos • Desperado.mp4', 0, 30],
         () => p5Instance.random([
             ['videos/I\'m a Bee.mp4', 0, 23],
-            ['videos/I\'m a Bee.mp4', 23, 25],
+            //['videos/I\'m a Bee.mp4', 23, 25],
         ]),
         'videos/faina.mp4',
         'videos/love Blade Runner 2049 edit.mp4',
@@ -601,7 +601,7 @@ p5Instance.onAfterSetup = function () {
         () => p5Instance.random([
             ['videos/[SFM] Shrekophone.mp4', 15],
         ]),
-        ['videos/streamers/U GOT THAT   LASQA EDITION.mp4', 9],
+        //['videos/streamers/U GOT THAT   LASQA EDITION.mp4', 9],
         // 'videos/streamers/westmage - kalovik.mp4',
         // 'videos/streamers/Крутое ХПГ.webm',
         // 'videos/streamers/Лизон в ХПГ.mp4',
