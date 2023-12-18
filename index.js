@@ -548,37 +548,40 @@ const p5Instance = new p5(WheelSketch);
 p5Instance.onAfterSetup = function () {
     p5Instance.setVideos([
         () => p5Instance.random([
-            'videos/Тони не спал с тобой. Тонилайф',
-            'videos/ryzen.mp4',
+            ['videos/Putin walking meme (Full version).mp4', 32],
+            'videos/milos.mp4',
+            'videos/Nope..mp4',
         ]),
         () => p5Instance.random([
-            'videos/arabic',
-            'videos/best Chika meme ever   anime characters in Chika dance MV',
+            ['videos/BASSBOOSTED   Смешарики-От винта.mp4', 14, 28],
+            // ['videos/BASSBOOSTED   Смешарики-От винта.mp4', 44, 34],
+            ['videos/BASSBOOSTED   Смешарики-От винта.mp4', 73, 29],
         ]),
         ['videos/JOJO\'S BIZARRE MAKEUP TUTORIAL.mp4', 6],
-        'videos/chipichapa.mp4',
-        'videos/Country Roads cover by Mario Mario.mp4',
-        ['videos/Сыновья России. Кто пчелок уважает.mp4', 26],
-        ['videos/All Star but they don\'t stop coming pitch corrected.mp4', 20],
-        'videos/dendi.mp4',
-        'videos/fish.mp4',
-        'videos/gena bukin',
-        'videos/greg',
+        ['videos/Останьте, босмер.mp4', 1],
+        ['videos/All Star but they don\'t stop coming pitch corrected.mp4', 3],
+        () => p5Instance.random([
+            ['videos/Pinoki - Pingana (Havana by Camila Cabello ft. Young Thug Remix).mp4', 32],
+            ['videos/Pinoki - Pingana (Havana by Camila Cabello ft. Young Thug Remix).mp4', 22],
+        ]),
         ['videos/HOOD NARUTO  pt.4 (full video) naruto vs pain.mp4', 23, 32],
+        'videos/arabic.mp4',
+        'videos/Country Roads cover by Mario Mario.mp4',
         'videos/[Re-upload] [1080p] HONK HONK.mp4',
-        'videos/Стрим по готике 2 от мэддисона',
+        ['videos/CHIKA VIBES   Kaguya-sama Love is War.mp4', 0, 28],
         'videos/best Chika meme ever   anime characters in Chika dance MV.mp4',
-        'videos/x-men',
+        ['videos/Не Твое Дело - Я буду рядом.mp4', 0, 30],
         'videos/Music make you lose control triangle.mp4',
         'videos/Танец под волчок из  Что Где Когда.mp4',
-        'videos/Walter',
-        'videos/Skooma Addicted Khajiit Inhales Skooma.mp4',
-        'videos/Танец под волчок из  Что Где Когда.mp4',
-        'videos/Sleepwalker - Danila Bagrov edit.mp4',
+        'videos/dendi.mp4',
+        ['videos/fish.mp4', 0, 17],
+        'videos/gena bukin.mp4',
+        ['videos/greg.mp4', 0, 30],
+        ['videos/khajit.mp4', 0, 30],
         ['videos/дора, МЭЙБИ БЭЙБИ — Не исправлюсь.mp4', 0, 30],
         ['videos/Dj Eban.mp4', 48],
-        'videos/RONDONDON  (official music video) Lil John & Eastside boyz- Get Low (cover).mp4', 0, 30],
-        'videos/Тони не спал с тобой. Тонилайф',
+        ['videos/RONDONDON  (official music video) Lil John & Eastside boyz- Get Low (cover).mp4', 0, 30], // Not cool
+        ['videos/lotar.mp4', 0, 31],
         ['videos/Sailor Moon OP1.mp4', 0, 32],
         ['videos/Antonio Banderas, Los Lobos • Desperado.mp4', 0, 30],
         () => p5Instance.random([
@@ -586,7 +589,9 @@ p5Instance.onAfterSetup = function () {
             ['videos/I\'m a Bee.mp4', 23, 25],
         ]),
         'videos/faina.mp4',
-        'videos/Ryan Gosling in Stalker.mp4',
+        'videos/love Blade Runner 2049 edit.mp4',
+        // 'videos/mausu.mp4',
+
         ['videos/Папич-марш  прощание славянки .9мая.mp4', 7],
         ['videos/Мэддисон - Shooting Stars.mp4', 13],
         () => p5Instance.random([
@@ -594,25 +599,30 @@ p5Instance.onAfterSetup = function () {
             ['videos/учит крутить рулём под phonk.mp4', 5],
         ]),
         () => p5Instance.random([
-            'videos/Этот мем поймут только 25-летние.mp4',
             ['videos/[SFM] Shrekophone.mp4', 15],
         ]),
-        'videos/01.mp4', // Crab rave
+        ['videos/streamers/U GOT THAT   LASQA EDITION.mp4', 9],
+        // 'videos/streamers/westmage - kalovik.mp4',
+        // 'videos/streamers/Крутое ХПГ.webm',
+        // 'videos/streamers/Лизон в ХПГ.mp4',
+
+        // 'videos/01.mp4', // Crab rave
         'videos/02.mp4',
-        'videos/03.mp4', // AAAAAAAT
+        // 'videos/03.mp4', // AAAAAAAT
         'videos/04.mp4',
         'videos/06.mp4',
-        'videos/Nope..mp4',
-        'videos/milos.mp4',
-        'videos/love Blade Runner 2049 edit.mp4',
-        'videos/lotar.mp4',
-        'videos/khajit.mp4',
-        //'videos/16.mp4', // banned
+        'videos/x-men.mp4', // HPG
+        'videos/Ryan Gosling in Stalker.mp4',
+        'videos/ryzen.mp4',
+        'videos/Skooma Addicted Khajiit Inhales Skooma.mp4',
+        'videos/Sleepwalker - Danila Bagrov edit.mp4',
+        'videos/Walter.mp4',
+        'videos/Стрим по готике 2 от мэддисона.mp4', // banned
         'videos/17.mp4', // U got that
         'videos/18.mp4',
         'videos/19.mp4',
-        // 'videos/20.mp4', // HPG
-        // 'videos/21.mp4', // HPG
+        'videos/Тони не спал с тобой. Тонилайф.mp4', // HPG
+        'videos/Этот мем поймут только 25-летние.mp4', // HPG
     ]);
 };
 
