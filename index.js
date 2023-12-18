@@ -548,7 +548,6 @@ const p5Instance = new p5(WheelSketch);
 p5Instance.onAfterSetup = function () {
     p5Instance.setVideos([
         () => p5Instance.random([
-            'videos/+Dj Eban',
             'videos/Тони не спал с тобой. Тонилайф',
             'videos/ryzen.mp4',
         ]),
@@ -577,13 +576,13 @@ p5Instance.onAfterSetup = function () {
         'videos/Танец под волчок из  Что Где Когда.mp4',
         'videos/Walter',
         'videos/Skooma Addicted Khajiit Inhales Skooma.mp4',
-        'videos/U GOT Яйца.mp4',
+        'videos/Танец под волчок из  Что Где Когда.mp4',
         // ['videos/ХРЮШЕНЬКИНЫ САПОГИ.mp4', 0, 30],
         'videos/Sleepwalker - Danila Bagrov edit.mp4',
         ['videos/дора, МЭЙБИ БЭЙБИ — Не исправлюсь.mp4', 0, 30],
         ['videos/Dj Eban.mp4', 48],
-        // ['videos/RONDONDON  (official music video) Lil John & Eastside boyz- Get Low (cover).mp4', 0, 30], // Not cool
-        ['videos/blinding-lights.mp4', 0, 31],
+        'videos/RONDONDON  (official music video) Lil John & Eastside boyz- Get Low (cover).mp4', 0, 30], // Not cool
+        'videos/Тони не спал с тобой. Тонилайф',
         ['videos/Sailor Moon OP1.mp4', 0, 32],
         ['videos/Antonio Banderas, Los Lobos • Desperado.mp4', 0, 30],
         () => p5Instance.random([
@@ -618,7 +617,6 @@ p5Instance.onAfterSetup = function () {
         'videos/04.mp4',
         'videos/06.mp4',
         'videos/Nope..mp4',
-        'videos/Music make you lose control triangle.mp4',
         'videos/milos.mp4',
         'videos/love Blade Runner 2049 edit.mp4',
         'videos/lotar.mp4',
