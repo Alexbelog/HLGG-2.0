@@ -553,7 +553,6 @@ p5Instance.onAfterSetup = function () {
         ]),
         () => p5Instance.random([
             'videos/arabic',
-            // ['videos/BASSBOOSTED   Смешарики-От винта.mp4', 44, 34],
             'videos/best Chika meme ever   anime characters in Chika dance MV',
         ]),
         ['videos/JOJO\'S BIZARRE MAKEUP TUTORIAL.mp4', 6],
@@ -561,10 +560,8 @@ p5Instance.onAfterSetup = function () {
         'videos/Country Roads cover by Mario Mario.mp4',
         ['videos/Сыновья России. Кто пчелок уважает.mp4', 26],
         ['videos/All Star but they don\'t stop coming pitch corrected.mp4', 20],
-        () => p5Instance.random([
-            'videos/dendi.mp4',
-            'videos/fish.mp4',
-        ]),
+        'videos/dendi.mp4',
+        'videos/fish.mp4',
         'videos/gena bukin',
         'videos/greg',
         ['videos/HOOD NARUTO  pt.4 (full video) naruto vs pain.mp4', 23, 32],
@@ -577,11 +574,10 @@ p5Instance.onAfterSetup = function () {
         'videos/Walter',
         'videos/Skooma Addicted Khajiit Inhales Skooma.mp4',
         'videos/Танец под волчок из  Что Где Когда.mp4',
-        // ['videos/ХРЮШЕНЬКИНЫ САПОГИ.mp4', 0, 30],
         'videos/Sleepwalker - Danila Bagrov edit.mp4',
         ['videos/дора, МЭЙБИ БЭЙБИ — Не исправлюсь.mp4', 0, 30],
         ['videos/Dj Eban.mp4', 48],
-        'videos/RONDONDON  (official music video) Lil John & Eastside boyz- Get Low (cover).mp4', 0, 30], // Not cool
+        'videos/RONDONDON  (official music video) Lil John & Eastside boyz- Get Low (cover).mp4', 0, 30],
         'videos/Тони не спал с тобой. Тонилайф',
         ['videos/Sailor Moon OP1.mp4', 0, 32],
         ['videos/Antonio Banderas, Los Lobos • Desperado.mp4', 0, 30],
@@ -591,8 +587,6 @@ p5Instance.onAfterSetup = function () {
         ]),
         'videos/faina.mp4',
         'videos/Ryan Gosling in Stalker.mp4',
-        // 'videos/mausu.mp4',
-
         ['videos/Папич-марш  прощание славянки .9мая.mp4', 7],
         ['videos/Мэддисон - Shooting Stars.mp4', 13],
         () => p5Instance.random([
@@ -603,14 +597,6 @@ p5Instance.onAfterSetup = function () {
             'videos/Этот мем поймут только 25-летние.mp4',
             ['videos/[SFM] Shrekophone.mp4', 15],
         ]),
-        ///'videos/streamers/namvseyasno-ananasovy-sirop.mp4',
-        //['videos/streamers/liz0N - Пятница (песенка про Minecraft).mp4', 31, 32],
-        //['videos/streamers/U GOT THAT   LASQA EDITION.mp4', 9],
-        //['videos/streamers/usachman - Привет из 3182.mp4', 0, 26],
-        // 'videos/streamers/westmage - kalovik.mp4',
-        // 'videos/streamers/Крутое ХПГ.webm',
-        // 'videos/streamers/Лизон в ХПГ.mp4',
-
         'videos/01.mp4', // Crab rave
         'videos/02.mp4',
         'videos/03.mp4', // AAAAAAAT
