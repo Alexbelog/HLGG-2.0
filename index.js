@@ -580,7 +580,7 @@ p5Instance.onAfterSetup = function () {
         ['videos/khajit.mp4', 0, 30],
         ['videos/дора, МЭЙБИ БЭЙБИ — Не исправлюсь.mp4', 0, 30],
         ['videos/Dj Eban.mp4', 48],
-        ['videos/RONDONDON  (official music video) Lil John & Eastside boyz- Get Low (cover).mp4', 0, 30], // Not cool
+        //['videos/RONDONDON  (official music video) Lil John & Eastside boyz- Get Low (cover).mp4', 0, 30], // Not cool
         ['videos/lotar.mp4', 0, 31],
         ['videos/Sailor Moon OP1.mp4', 0, 32],
         ['videos/Antonio Banderas, Los Lobos • Desperado.mp4', 0, 30],
@@ -608,7 +608,7 @@ p5Instance.onAfterSetup = function () {
 
         // 'videos/01.mp4', // Crab rave
         'videos/02.mp4',
-        // 'videos/03.mp4', // AAAAAAAT
+        'videos/chipichapa.mp4', // AAAAAAAT
         'videos/04.mp4',
         'videos/06.mp4',
         'videos/x-men.mp4', // HPG
