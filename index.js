@@ -72,6 +72,7 @@ const dataSets = {
         'MORTIS',
         'Че пацаны, Аниме?',
         'AYAYA',
+        'Ходули',
     ],
     debuffs: [
         'Мистер Ржавчик',
@@ -398,6 +399,7 @@ function getImageURI(index) {
                 59,
                 60,
                 61,
+                62,
             ];
             result = 'images/items/0' + ('0' + (mapping[index])).slice(-2) + '.png';
             break;
