@@ -12,8 +12,8 @@ function WheelSketch(_p5) {
     ;
     let data = [],
         videosList = [
-            'videos/14278244937910.webm',
-            'videos/14686000376951.webm',
+            'videos/Танец под волчок из  Что Где Когда.mp4',
+            'videos/dendi.mp4',
         ],
         counter,
         counterDelta = 0,
