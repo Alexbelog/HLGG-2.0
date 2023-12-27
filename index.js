@@ -525,13 +525,15 @@ function getImageURI(index) {
             break;
 
         case "coin":
-            result = 'images/coins/russia-100-rubles-1993-ob.png';
-            if (index === 1) {
-                result = 'images/coins/russia-100-rubles-1993-rev.png';
-            }
-            if (index === 10) {
-                result = 'images/coins/coin-gurt.png';
-            }
+             mapping = [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+            ];
+            result = 'images/coins/0' + ('0' + (mapping[index])).slice(-2) + '.png';
             break;
 
         case "streamers":
