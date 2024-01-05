@@ -130,7 +130,7 @@ const dataSets = {
         'Ragnar',
         'Akvitan',
         'R3V3NG3LUV',
-        'Kymaxta',
+        'Wolfiin_TW',
     ],
     corona: [
         'Тест положительный',
