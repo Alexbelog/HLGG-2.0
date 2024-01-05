@@ -129,8 +129,8 @@ const dataSets = {
         'Alexbelog',
         'Ragnar',
         'Akvitan',
-        'R3V3NG3LUV',
-        'Wolfiin_TW',
+        'REVENGELUV',
+        'Wolfiin',
     ],
     corona: [
         'Тест положительный',
