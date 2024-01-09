@@ -635,6 +635,8 @@ p5Instance.onAfterSetup = function () {
         'videos/Заминированный тапок- Remix.mp4', // HPG
         'videos/9MM x LOLI SHIGURE UI.mp4', // HPG
         'videos/BOOMBASTIC.mp4', // HPG
+        'videos/slovopacana.mp4', // HPG
+        'videos/Легендарное РУКОПОЖАТИЕ.mp4', // HPG
     ]);
 };
 
