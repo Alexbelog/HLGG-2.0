@@ -56,6 +56,7 @@ const dataSets = {
         'ESTA VIVO?!?! [Предмет]',
         'Счастливый билет [Предмет]',
         'Ходули [Предмет]',
+        'Палка [Предмет]',
     ],
     supeshiaru: [
         'Чуйка на говно',
@@ -509,6 +510,7 @@ function getImageURI(index) {
                 54,
                 55,
                 56,
+                57,
             ];
             result = 'images/items/0' + ('0' + (mapping[index])).slice(-2) + '.png';
             break;
