@@ -632,6 +632,9 @@ p5Instance.onAfterSetup = function () {
         'videos/19.mp4',
         'videos/Тони не спал с тобой. Тонилайф.mp4', // HPG
         'videos/Этот мем поймут только 25-летние.mp4', // HPG
+        'videos/Заминированный тапок- Remix.mp4', // HPG
+        'videos/9MM x LOLI SHIGURE UI.mp4', // HPG
+        'videos/BOOMBASTIC.mp4', // HPG
     ]);
 };
 
